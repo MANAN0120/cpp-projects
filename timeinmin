@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int hr,min,total;
+    cout<<"Enter time in hours: ";
+    cin>>hr;
+    cout<<"Enter time in minutes: ";
+    cin>>min;
+    hr*=60;
+    total=hr+min;
+    cout<<"Total time in minutes will be: "<<total;
+    return 0;
+}
