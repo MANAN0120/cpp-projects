@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int r;
+    cout<<"Enter raduis of circle: ";
+    cin>>r;
+    int area;
+    area = 3.14*r*r;
+    cout<<"The area of circle is : "<<area;
+    return 0;
+}
