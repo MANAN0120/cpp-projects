@@ -2,10 +2,10 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter value of n";
+    cout<<"Enter the value of n: ";
     cin>>n;
     for(int i=1;i<=n;i++){
-        cout<<"Alpha Intern"<<endl;
+        if(i%2==0) cout<<i<<endl;
     }
     return 0;
 }
