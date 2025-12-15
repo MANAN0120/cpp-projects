@@ -2,15 +2,16 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the size of array: ";
+    cout<<"Enter size of array: ";
     cin>>n;
     int arr[n];
-    cout<<"Enter the elements of array:"<<endl;
+    cout<<"Enter elements of array: ";
     for(int i=1;i<=n;i++){
         cin>>arr[i];
     }
+    int product=1;
      for(int i=1;i<=n;i++){
-        cout<<arr[i]<<" ";
+        product*=arr[i];
 }
-return 0;
+cout<<"The product of elements of array is:"<<product;
 }
